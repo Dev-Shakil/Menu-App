@@ -1,0 +1,147 @@
+body{
+  background-color:lightgray;
+}
+.header{
+  /* width:100%; */
+  height:50px;
+  background:cyan;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:0 25px;
+
+}
+.logo{
+  display:flex;
+  align-items:center;
+  color:rgb(82, 59, 146);
+  font-size:25px;
+  grid-template-columns:6;
+  font-weight:bold;
+  flex:0.3;
+}
+.Menu{
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+  flex:0.7;
+}
+.itemList{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.item{
+  padding:10px;
+  list-style-type:none;
+  font-weight: bold;
+  font-size:large;
+}
+/*foodCat */
+.parent-food{
+  display:flex;
+  justify-content:center;
+}
+
+.food-cat{
+  /* width:50%; */
+  height:70px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background:white;
+  border-radius:15px;
+  margin-top:15px;
+
+}
+.cats{
+  display:flex;
+}
+.cat{
+  list-style:none;
+  padding:10px 25px;
+  font-weight: bold;
+  font-size:x-large;
+  display:flex;
+  flex:0.2;
+}
+.cat:hover{
+  cursor:pointer;
+}
+.cat:hover{
+  border-bottom:4px solid rebeccapurple;
+  color:rebeccapurple;
+}
+.catclick{
+  border-bottom:4px solid rebeccapurple;
+  color:rebeccapurple;
+}
+/* FoodCat */
+
+/* Card */
+.card-container{
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+.card-title{
+  margin:10px 10px;
+  color:darkolivegreen;
+
+}
+.cards{
+  display:flex;
+
+}
+
+.card{
+  background-color:white;
+  width:350px;
+  height:auto;
+  box-shadow:1px 0.4px 0.8px 0.7px darkgrey;
+  margin:20px;
+
+  padding:10px 0px;
+}
+.card-no{
+  border-radius:50%;
+  height:30px;
+  width:30px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  border:2px solid darkgray;
+  margin:5px auto;
+  padding:5px;
+}
+.card-subtitle{
+  color:darkgrey;
+  margin:0px 10px;
+
+}
+.card-image{
+  width:100%;
+  height:150px;
+}
+.card-para{
+  margin:10px;
+}
+.card-description{
+  color:darkslategray;
+  /* padding:5px 10px; */
+  text-align: justify;
+}
+.card-button{
+  background-color:lightcoral;
+  color:white;
+  width:80%;
+  margin:10px auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:35px;
+  font-weight: bold;
+  font-size: large;
+}
+/* Card */
